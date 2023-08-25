@@ -15,6 +15,9 @@ app.post('/users', UserService.addUser);
 app.put('/users/:id', UserService.updateUser);
 app.delete('/users/:id', UserService.deleteUser);
 
+
 app.listen(port, host, () => {
     console.log(`server berjalan pada http://${host}:${port}`);
 })
+
+
